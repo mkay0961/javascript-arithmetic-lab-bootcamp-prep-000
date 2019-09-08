@@ -30,6 +30,13 @@ function makeInt(a){ //Parse a as an integer and return that integer.
   return number;
 }
 
+function preserveDecimal(n) {
+  number = parseFloat(n)
+  return number;
+}
+
+
+
 
 // var number;
 // function add(a, b) {
@@ -58,5 +65,5 @@ function makeInt(a){ //Parse a as an integer and return that integer.
 //
 // function makeInt(n) {
 //   number = parseInt(n, 10)
-//   return number
+//   return number;
 // }
