@@ -1,5 +1,5 @@
 
-
+var number;
 function add(a, b) {
   return a + b
 }
@@ -25,5 +25,6 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt(n, 10)
+  number = parseInt(n, 10)
+  return number
 }
